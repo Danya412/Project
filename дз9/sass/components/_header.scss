@@ -1,0 +1,186 @@
+.header {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 480px) {
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+}
+.tru-photo {
+  padding-top: 118px;
+}
+
+.tel {
+  width: 122px;
+  height: 16px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--color-telemailHeader);
+}
+.tel :hover {
+  width: 122px;
+  height: 16px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--color-weblogo);
+}
+.email {
+  margin-right: 25px;
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.email :hover {
+  color: var(--color-weblogo);
+}
+.tel {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.ulrowdet {
+  display: flex;
+  align-items: center;
+}
+.ulrow-li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  margin-left: 25px;
+  color: var(--color-likeheader);
+  position: relative;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+.ulrow-li:hover {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.nav-contacts :hover {
+  color: var(--color-weblogo);
+}
+
+.nav-portfolio :hover {
+  color: var(--color-weblogo);
+}
+
+.nav-studio :hover {
+  color: var(--color-weblogo);
+}
+
+.sectionheader {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 1600px;
+  height: 80px;
+}
+
+.logo1header {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--color-studiologo);
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  @media screen and (max-width: 480px) {
+  }
+}
+.spanlogo {
+  color: var(--color-weblogo);
+  @media screen and (max-width: 480px) {
+    color: #2196f3;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.72px;
+  }
+}
+.spanlogo2 {
+  color: #212121;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.ulrow {
+  display: flex;
+  margin-right: 344px;
+  align-items: center;
+}
+.ulrow-item {
+}
+.ulrow-item :not(:last-child) {
+  margin-right: 30px;
+}
+
+.ulrow {
+  display: flex;
+  margin-right: 344px;
+  align-items: center;
+}
+.ulrowdet {
+  display: flex;
+  align-items: center;
+}
+.flexdivheader {
+  display: flex;
+  margin-left: 95px;
+}
+.ulrow-item :hover ::after {
+  content: "";
+  display: block;
+
+  width: 100%;
+  height: 4px;
+
+  border-radius: 2px;
+  background-color: #2196f3;
+}
+.ulrow-item:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196f3;
+  position: absolute;
+}

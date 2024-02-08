@@ -1,0 +1,19 @@
+:root {
+  /* Перший колір для web, другий для studio / */
+  --color-weblogo: #2196f3;
+  --color-studiologo: #000000;
+  /* / щось типу заголовку / */
+  --color-likeheader: #212121;
+  /* / email та tel в header  / */
+  --color-telemailHeader: #757575;
+  /* / білий текст / */
+  --color-white: #ffffff;
+  /* / застосувалось в шрифті кноппки / */
+  --color-button: #2f303a;
+  /* / наче для email та tel footer / */
+  --color-telemailFooter: #ffffff99;
+  /* / наче для background'у midsection / */
+  --background-midsection: #ececec;
+  /* / background portfolio */
+  --background-portfolio: #f5f4fa;
+}
